@@ -1,0 +1,7 @@
+train:
+  - "/mnt/d/SPD_2025/data_origin/UCY_dataset/UCY/ucy_students03_brights_shopUCY_Dataset_time0-54_timeunit0.08.npy"
+  - "/mnt/d/SPD_2025/data_origin/UCY_dataset/UCY/ucy_students03_brights_shopUCY_Dataset_time54-108_timeunit0.08.npy"
+  - "/mnt/d/SPD_2025/data_origin/UCY_dataset/UCY/ucy_students03_brights_shopUCY_Dataset_time108-162_timeunit0.08.npy"
+
+valid:
+  - "/mnt/d/SPD_2025/data_origin/UCY_dataset/UCY/ucy_students03_brights_shopUCY_Dataset_time162-216_timeunit0.08.npy"

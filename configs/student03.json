@@ -1,0 +1,50 @@
+{
+  "image_name": "/mnt/d/SPD_2025/data/UCY/students03/bg.png",
+  "image_size": [720,576],
+  "image_information": "This image shows an outdoor square on a sunny day. In the center of the picture is a sidewalk paved with large stone bricks. The road is clean and wide, suitable for pedestrians. In the upper left corner is a lawn with a brick flower bed with brightly colored plants and some garbage and cardboard scattered around. In the upper right corner is a temporary stall or rest area with parasols, and several people are in the shade. Street lights are also installed on the side of the road. The overall environment has the openness and life of a public space.",
+  "obstacles": [
+    {
+      "category": "flowerbed",
+      "description": "Immobilize impassable obstacles to force pedestrians to detour.`",
+      "bbox": [90.0, 130.0, 170.0, 70.0, 0.0],
+      "image":"/mnt/d/SPD_2025/data/UCY/students03/flowerbed.png"
+    },
+    {
+      "category": "White cardboard",
+      "description": "There is cardboard on the edge of the grass, so watch your feet and avoid slipping on them",
+      "bbox": [210, 45, 40, 40, 0.785],
+      "image": "/mnt/d/SPD_2025/data/UCY/students03/White cardboard.png"
+    },
+    {
+      "category": "plank",
+      "description": "There are wooden planks on the ground, so please be aware of the risk of tripping, so please walk around",
+      "bbox": [225, 100, 16, 60, -0.785],
+      "image": "/mnt/d/SPD_2025/data/UCY/students03/plank.png"
+    },
+    {
+      "category": "billboard",
+      "description": "Vertically fixed obstacles, occupy a small road but need to be avoided",
+      "bbox": [520, 100, 47, 138, 0],
+      "image": "/mnt/d/SPD_2025/data/UCY/students03/billboard.png"
+    }
+  ],
+  "interest":[
+    {
+      "category": "booth",
+      "description": "Crowd attraction points that can lead to stopovers and local congestion",
+      "bbox": [355, 20, 210, 170, -0.785],
+      "image": "/mnt/d/SPD_2025/data/UCY/students03/booth.png"
+    },
+    {
+      "category": "Shaded areas",
+      "description": "Visual perception area, which may reduce the ability to recognize obstacles",
+      "bbox": [70, 460, 190, 358, 0],
+      "image": "/mnt/d/SPD_2025/data/UCY/students03/Shaded areas.png"
+    }
+  ],
+  "boundary_line":[
+    20,210,  45,205,  85,190,  40,180,  185,16,  205,70,  255,60, 290,80, 330,50, 370,80, 420,60, 505,150
+  ]
+
+
+}

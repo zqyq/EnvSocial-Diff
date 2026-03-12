@@ -1,0 +1,52 @@
+{
+  "image_name": "/mnt/d/SPD_2025/data/GC/bg.jpg",
+  "image_size": [1920,1080],
+  "image_information": "This picture shows a spacious and magnificent indoor hall, which might be the central hall of a station or a historic building. At the center of the picture is a circular information desk or decorative device, illuminated by bright lights. The surrounding ground is smooth and clean, paved with light brown stone bricks. On both sides of the hall are symmetrical corridors and shop areas, with American flags and promotional banners hung on the walls. There are two large staircases directly ahead leading to the upper platform. The overall architectural style is solemn and elegant, with a strong classical atmosphere and the functionality of public Spaces.",
+  "obstacles": [
+    {
+      "category": "central circular glass display stand",
+      "description": "As a visual focus, it will attract pedestrians to stop and view the exhibits, causing the trajectory to form a circle or pause around the exhibition stand. It may become an obstacle in the path, forcing pedestrians to detour.`",
+      "bbox": [890.0, 570.0, 246.0, 230.0, 0.0],
+      "image": "/mnt/d/SPD_2025/data/GC/center.png"
+    },
+    {
+      "category": "symmetrical double-sided stairs",
+      "description": "The clear passageway of the staircase will guide pedestrians to divert to both sides, forming a symmetrical trajectory pattern.\nPedestrians going up and down the stairs may cause a brief congestion at the staircase entrance due to speed differences (such as deceleration when going up).",
+      "bbox": [890, 155, 490, 190, 0],
+      "image": "/mnt/d/SPD_2025/data/GC/stairs.png"
+    },
+
+    {
+      "category": "building",
+      "description": "As physical obstacles, pedestrians need to actively avoid them",
+      "bbox": [40, 780, 230, 530, 1.047],
+      "image": "/mnt/d/SPD_2025/data/GC/building.png"
+    }
+  ],
+  "interest":[
+    {
+      "category": "sales window and service counter",
+      "description": "As physical obstacles, pedestrians need to actively avoid them.Block lateral crossing, only allow passage in the front and back directions, and guide the flow of people to walk in the middle area.",
+      "bbox": [330, 300, 190, 600, 0.785],
+      "image": "/mnt/d/SPD_2025/data/GC/shop.png"
+
+    },
+    {
+      "category": "billboard or light box",
+      "description": "As physical obstacles, pedestrians need to actively avoid them.Attracting attention may lead to brief stops or path deviations",
+      "bbox": [1500, 30, 170, 780, 0.785],
+      "image": "/mnt/d/SPD_2025/data/GC/box.png"
+
+    },
+
+    {
+      "category": "the hanging American flag",
+      "description": "Some pedestrians may briefly look up due to cultural identity, but it has a weak impact on their actual path (without changing the main direction of travel).",
+      "bbox": [40, 180, 160, 160, -0.785],
+      "image": "/mnt/d/SPD_2025/data/GC/flag.png"
+    }
+  ],
+  "boundary_line":[
+    90,1000,  120,95,   150,870,    175,800,  35,560, 120,560,  210,560,  290,520, 330,470,  360,420,   390,330,  425,280,  450,210,  660,210,  770,210,   830, 200,  990,200,  1040,230,  1380,170,   1430,170,  1460,200,   1500,270,  1540,340,  1600,460,  1655,550,  1750,760,  1820,880
+  ]
+}
