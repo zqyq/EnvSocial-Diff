@@ -66,8 +66,21 @@ Due to GitHub's file size limits, datasets and pre-trained weights are hosted on
 ## Contributing
 If you’d like to contribute to EnvSocial-Diff, please fork the repository and submit a pull request. We welcome contributions that enhance the functionality and usability of the project.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Acknowledgement
+This work was supported in parts by National Key R&D Program of China (2024YFB3908500, 2024YFB3908504), NSFC (62202312), Guangdong Basic and Applied Basic Research Foundation(2023B1515120026), Shenzhen Science and Technology Program (KQTD20210811090044003), Teaching Reform Key Program (JG2024018) and Scientific Foundation for Youth Scholars and Scientific Development Funds from Shenzhen University.
+
+
+## Reference
+```bash
+@inproceedings{
+zhao2026envsocialdiff,
+title={EnvSocial-Diff: A Diffusion-Based Crowd Simulation Model with Environmental Conditioning and Individual- Group Interaction},
+author={Bingxue Zhao and Qi Zhang and Hui Huang},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=2XBAm3Dbnt}
+}
+```
 
 ## Contact
 For any inquiries, please contact [zqyq](mailto:zqyq@example.com). 
