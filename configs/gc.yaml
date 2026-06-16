@@ -56,7 +56,7 @@ total_epochs: 160
 data_config: configs/data_configs/gc_model.yaml
 
 rebuild_dataset: False
-data_dict_path: dataset_built/gc.pkl
+data_dict_path: dataset_built/gc1.pkl
 model_sd_path: False
 finetune_trainmode: multistep # singlestep/multistep
 time_decay: 0.9
@@ -92,7 +92,7 @@ eval_at: 80
 eval_mode: False
 
 # Data Parameters:
-device: cuda:0
+device: cuda:1
 note: None
 
 begin_time: 2025

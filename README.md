@@ -62,7 +62,7 @@ checkpoints/
 
 ## Data & Pre-trained Models
 Due to GitHub's file size limits, datasets and pre-trained weights are hosted on Google Drive.
-* **Download Link**: [👉 Click Here to Download](https://drive.google.com/file/d/1wlfZVD3xGVvOPPiD1dlNpTaafpktioQU/view?usp=sharing)
+* **Download Link**: [👉 Click Here to Download](https://drive.google.com/file/d/1CXnWmP9up_lzgRUpXd-1bebYp8b9wdsz/view?usp=sharing)
 ## Contributing
 If you’d like to contribute to EnvSocial-Diff, please fork the repository and submit a pull request. We welcome contributions that enhance the functionality and usability of the project.
 

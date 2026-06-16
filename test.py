@@ -11,16 +11,16 @@ import random, torch
 import setproctitle
 
 torch.set_num_threads(8)
-torch.cuda.set_device(6)
+torch.cuda.set_device(1)
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
         description='Pytorch implementation of MID')
-    parser.add_argument('--config', default='configs/ucy.yaml')
+    parser.add_argument('--config', default='configs/gc.yaml')
     parser.add_argument('--dataset', default='')
-    parser.add_argument('--data_dict_path', default='/mnt/d/EnvSocial/dataset_built/ucy.pkl',help='Path to the training data file (PKL format) that contains all data required for model training.')
-    parser.add_argument('--model_name', default='/mnt/d/EnvSocial/experiments/UCY.pkl',help="PKL file path of pre-trained model for testing.")
+    parser.add_argument('--data_dict_path', default='/mnt/d/EnvSocial/dataset_built/gc1.pkl',help='Path to the training data file (PKL format) that contains all data required for model training.')
+    parser.add_argument('--model_name', default='/mnt/d/demo/EnvSocial-Diff/experiments/GC.pkl',help="PKL file path of pre-trained model for testing.")
     return parser.parse_args()
 
 
